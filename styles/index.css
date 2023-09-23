@@ -1,0 +1,10 @@
+.subtitulo{
+    margin: 15px;
+    padding: 0;
+}
+
+.container{
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+}
