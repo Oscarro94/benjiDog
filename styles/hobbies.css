@@ -21,11 +21,17 @@ td{
     padding: 10px;
 }
 
-.footer{
-    position: fixed;
-    width: 100%;
-    bottom: 0;
-}
+.footer {
+    background-color: hsl(60, 4%, 5%);
+    color: rgb(56, 184, 223);
+    padding: 10px;
+    text-align: center;
+    clear: both;
+  }
+  
+  .footer p {
+    text-align: center;
+  }
 
 tr:hover{
     background-color:  rgb(56, 184, 223);
