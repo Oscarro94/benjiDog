@@ -1,0 +1,122 @@
+body {
+  font-family: "Lucida Console", "Courier New", monospace;
+  background: linear-gradient(to right, rgb(132, 132, 158), rgb(112, 112, 107));
+  padding: 0;
+  margin: 0;
+}
+
+header {
+  text-align: center;
+}
+
+hr {
+  border-color: rgb(22, 22, 22);
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: hsl(0, 0%, 4%);
+  padding: 16px;
+  display: flex;
+  justify-content: center;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  padding: 14px 16px;
+  color: #fff;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 80px;
+}
+
+li a:hover:not(.active) {
+  background-color: rgb(56, 184, 223);
+}
+
+.active {
+  background-color: rgb(56, 184, 223);
+}
+
+h1 {
+  background-color: #000;
+  color: rgb(56, 184, 223);
+  padding: 10px;
+  margin: 0;
+}
+
+h2 {
+  font-size: 24px;
+  padding: 0;
+  margin: 10px;
+  text-align: center;
+}
+
+.container {
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+p {
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+  text-align: justify;
+}
+
+.image {
+  float: right;
+  margin: 0 0 20px 20px;
+  max-width: 20%;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 14px 30px rgb(0 0 0 / 25%);
+}
+
+#image2 {
+  float: left;
+  margin: 0 20px 20px 0;
+  max-width: 15%;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 14px 30px rgb(0 0 0 / 25%);
+}
+
+.footer {
+  background-color: hsl(60, 4%, 5%);
+  color: rgb(56, 184, 223);
+  padding: 10px;
+  text-align: center;
+  clear: both;
+}
+
+.footer p {
+  text-align: center;
+}
+
+@media (max-width: 600px) {
+  ul {
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  li a {
+    font-size: 15px;
+  }
+
+  .image {
+    max-width: 40%;
+  }
+
+  #image2 {
+    max-width: 40%;
+  }
+}
