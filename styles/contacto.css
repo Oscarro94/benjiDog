@@ -5,7 +5,7 @@
     padding: 20px;
     width: 50%;
     position: relative;
-    left: 25%;
+    left: 20%;
 
 }
 
@@ -35,14 +35,9 @@ input[type = "submit"]{
 input[type = "submit"]:hover{
     background-color: rgb(26, 31, 58);
 }
-.footer {
-    background-color: hsl(60, 4%, 5%);
-    color: rgb(56, 184, 223);
-    padding: 10px;
-    text-align: center;
-    clear: both;
-  }
-  
-  .footer p {
-    text-align: center;
-  }
+
+.footer{
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}

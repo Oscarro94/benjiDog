@@ -109,7 +109,7 @@ p {
   }
 
   li a {
-    font-size: 11px;
+    font-size: 15px;
   }
 
   .image {
@@ -119,4 +119,11 @@ p {
   #image2 {
     max-width: 40%;
   }
+}
+
+@media (max-width: 400px) {
+  li a {
+    font-size: 10px;
+  }
+
 }
