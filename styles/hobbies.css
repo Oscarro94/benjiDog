@@ -22,11 +22,10 @@ td{
 }
 
 .footer{
-    position: fixed;
-    width: 100%;
+    position: absolute;
     bottom: 0;
-}
-
+    width: 100%;
+    }
 tr:hover{
     background-color:  rgb(56, 184, 223);
 }
